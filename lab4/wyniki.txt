@@ -1,0 +1,40 @@
+
+Trenowanie wlasnej implementacji CART...
+Czas trenowania wlasnej implementacji: 61.17 sekund
+
+Trenowanie CART z scikit-learn...
+Czas trenowania scikit-learn: 64.61 sekund
+
+Ewaluacja czasu predykcji...
+Czas predykcji wlasnej implementacji: 0.13 sekund
+Czas predykcji scikit-learn: 0.24 sekund
+
+Dok³adnoœæ wlasnej implementacji CART: 0.825
+Dok³adnoœæ implementacji CART z scikit-learn: 0.825
+
+AUC wlasnej implementacji CART: 0.567
+AUC implementacji CART z scikit-learn: 0.672
+
+Liczba roznych predykcji: 1 z 10000 (0.0%)
+Wykres krzywych ROC zostal zapisany do pliku 'roc_curves.png'
+
+Podsumowanie porownania:
+1. Wlasna implementacja CART:
+   - Dokladnosc: 0.825
+   - AUC: 0.567
+   - Czas trenowania: 61.17 sekund
+   - Czas predykcji: 0.13 sekund
+2. Implementacja CART z scikit-learn:
+   - Dokladnosc: 0.825
+   - AUC: 0.672
+   - Czas trenowania: 64.61 sekund
+   - Czas predykcji: 0.24 sekund
+
+Porownanie wydajnosci:
+Wlasna implementacja jest 1.1x szybsza/wolniejsza w trenowaniu.
+Wlasna implementacja jest 1.8x szybsza/wolniejsza w predykcji.
+
+Wnioski:
+1. Obie implementacje osi¹gaj¹ podobn¹ dokladnosc.
+2. Wlasna implementacja jest szybsza w trenowaniu.
+3. Wlasna implementacja jest szybsza w predykcji.
